@@ -209,6 +209,7 @@ nav button span{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   header .container{
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -218,8 +219,18 @@ nav button span{
   nav{
     flex-direction: column;
   }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position:absolute;
+    top: 7%;
+    left: 1%;
+  }
+
   nav button{
     z-index: 1;
+    margin-top: 1.5rem;
   }
   .lamp-content{
     left: 65%;
@@ -246,6 +257,7 @@ nav button span{
 @media only screen and (min-width: 600px) {
 
   header .container{
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -256,10 +268,18 @@ nav button span{
     flex-direction: column;
     align-items: center;
   }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position:absolute;
+    top: 7%;
+    left: 1%;
+  }
   nav button{
     display: block;
-    float: right;
     z-index: 1;
+    margin-top: 1.5rem;
   }
   .lamp-content{
     left: 70%;
@@ -297,12 +317,15 @@ nav button span{
   }
   nav ul {
     width: 65%;
+    position: unset;
+    display: block;
   }
   nav ul li a{
     font-size: 0.85rem;
   }
   nav button{
     z-index: 1;
+    margin-top: 0;
   }
   .lamp-content{
     left: 60%;
