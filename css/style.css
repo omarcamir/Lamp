@@ -202,3 +202,173 @@ nav button span{
 }
 
 /* /head-content end */
+
+/* Responsive */
+/* ------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav button{
+    z-index: 1;
+  }
+  .lamp-content{
+    left: 65%;
+  }
+  #lamp{
+    width: 35%;
+  }
+  .lamp-content .light{
+    width: 124%;
+    margin-top: -2px;
+    margin-left: -46%;
+  }
+  .head-content .head-text{
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .head-text .controls{
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  header .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  nav button{
+    display: block;
+    float: right;
+    z-index: 1;
+  }
+  .lamp-content{
+    left: 70%;
+  }
+  #lamp{
+    width: 35%;
+  }
+  .lamp-content .light{
+    width: 124%;
+    margin-top: -2px;
+    margin-left: -46%;
+  }
+  .head-content .head-text{
+    margin-top: 5rem;
+    width: 100%;
+  }
+  .head-text .controls{
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    flex-direction: row;
+  }
+  nav ul {
+    width: 65%;
+  }
+  nav ul li a{
+    font-size: 0.85rem;
+  }
+  nav button{
+    z-index: 1;
+  }
+  .lamp-content{
+    left: 60%;
+  }
+  
+  #lamp{
+    width: 29%;
+  }
+  .lamp-content .light{
+    width: 113%;
+    margin-top: -2px;
+    margin-left: -43.5%;
+  }
+  .head-content .head-text h3 {
+    font-size: 3.5rem;
+  }
+  .head-content .head-text p {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+  /* header .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  nav ul {
+    width: 65%;
+  }
+  nav ul li a{
+    font-size: 1.1rem;
+  }
+  nav button{
+    z-index: 1;
+  }
+  .lamp-content{
+    width: 55%;
+    left: 25%;
+  }
+  #lamp{
+    width: 20%;
+  }
+  .lamp-content .light{
+    width: 75%;
+    margin-left: -28.5%;
+  }
+  .head-content .head-text{
+    width: 50%;
+  }
+  .head-content .head-text h3 {
+    font-size: 4rem;
+  }
+  .head-content .head-text p {
+    font-size: 1rem;
+    margin: 2rem 0;
+  }
+}
+
+
+
+/* ------------- */
+/* /Responsive */
