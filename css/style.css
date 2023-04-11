@@ -230,26 +230,36 @@ nav button span{
 
   nav button{
     z-index: 1;
-    margin-top: 1.5rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
   }
   .lamp-content{
-    left: 65%;
+    left: 60%;
   }
   #lamp{
-    width: 35%;
+    width: 40%;
   }
   .lamp-content .light{
-    width: 124%;
+    width: 132%;
     margin-top: -2px;
-    margin-left: -46%;
+    margin-left: -48.5%;
   }
   .head-content .head-text{
-    margin-top: 5rem;
+    margin-top: 7rem;
     width: 100%;
+  }
+    .head-content .head-text h3 {
+    font-size: 3.5rem;
+  }
+  .head-content .head-text p {
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
   }
   .head-text .controls{
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 
@@ -280,9 +290,12 @@ nav button span{
     display: block;
     z-index: 1;
     margin-top: 1.5rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
   }
   .lamp-content{
-    left: 70%;
+    left: 60%;
   }
   #lamp{
     width: 35%;
